@@ -1,0 +1,69 @@
+main{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, $color-principal, rgb(209, 209, 149)); 
+    height: 49rem;
+
+    &.border{
+        padding-right: 0px;
+        padding-right: 0px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 422px;
+        height: 884px;
+    }
+
+    &.doblefaz{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    
+    &.textoinicio{
+        padding: 20px;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Shippori Antique B1', sans-serif;
+    }
+    
+    &.textoinicio{
+        padding: 20px;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Shippori Antique B1', sans-serif;
+    }
+    &.texto{
+        padding: 20px;
+        text-align: center;
+        font-size: 35px;
+        font-family: 'Shippori Antique B1', sans-serif; 
+    }
+    &.impresionesblancoynegro{
+        font-family: 'Righteous', cursive;
+        font-size: 40px;
+    }
+    hr{
+        height: 100px;
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(172,172,172,1) 31%, rgba(203,204,203,1) 56%, rgba(255,255,255,1) 82%);  
+       
+    }
+    &.derecha{
+        text-align: right;
+    }
+    &.subi{
+        display: block;
+    }
+    &.formulario{
+        padding-top: 12rem;
+        padding-bottom: 10rem;
+        padding-left: 35rem;
+        padding-right: 35rem;
+    }
+    .murata{
+        text-align: center;
+        font-size: 35px;
+    }
+}

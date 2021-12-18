@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header a {
+  font-family: 'Righteous', cursive;
+  font-size: 100px;
+  list-style: none;
+  text-decoration: none;
+}
+
+header a color:black
+.tracking-in-contract {
+  -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  text-align: center;
+}
+
+nav {
+  background: #fafafa;
+  background: -webkit-gradient(linear, left top, right top, from(#fafafa), color-stop(41%, #d0ff98), color-stop(67%, #cee457));
+  background: linear-gradient(90deg, #fafafa 0%, #d0ff98 41%, #cee457 67%);
+}
+
+nav.redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-family: 'Shippori Antique B1', sans-serif;
+  color: blue;
+  font-size: 12px;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav.redes p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 8px 20px;
+}
+
+nav.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2px;
+  margin: 4px;
+  font-size: 20px;
+  font-family: 'Shippori Antique B1', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav.menu a {
+  color: black;
+  padding: 10px;
+  list-style: none;
+  text-decoration: none;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: -webkit-gradient(linear, left top, right top, from(#fafafa), to(#d1d195));
+  background-image: linear-gradient(to right, #fafafa, #d1d195);
+  height: 49rem;
+}
+
+main.border {
+  padding-right: 0px;
+  padding-right: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 422px;
+  height: 884px;
+}
+
+main.doblefaz {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main.textoinicio {
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Shippori Antique B1', sans-serif;
+}
+
+main.textoinicio {
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Shippori Antique B1', sans-serif;
+}
+
+main.texto {
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Shippori Antique B1', sans-serif;
+}
+
+main.impresionesblancoynegro {
+  font-family: 'Righteous', cursive;
+  font-size: 40px;
+}
+
+main hr {
+  height: 100px;
+  background: black;
+  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(31%, #acacac), color-stop(56%, #cbcccb), color-stop(82%, white));
+  background: linear-gradient(90deg, black 0%, #acacac 31%, #cbcccb 56%, white 82%);
+}
+
+main.derecha {
+  text-align: right;
+}
+
+main.subi {
+  display: block;
+}
+
+main.formulario {
+  padding-top: 12rem;
+  padding-bottom: 10rem;
+  padding-left: 35rem;
+  padding-right: 35rem;
+}
+
+main .murata {
+  text-align: center;
+  font-size: 35px;
+}
+
+footer {
+  font-size: 13px;
+  font-family: 'Shippori Antique B1', sans-serif;
+  background: #fafafa;
+  background: -webkit-gradient(linear, left top, right top, from(#fafafa), color-stop(41%, #d0ff98), color-stop(67%, #cee457));
+  background: linear-gradient(90deg, #fafafa 0%, #d0ff98 41%, #cee457 67%);
+}
+/*# sourceMappingURL=main.css.map */
