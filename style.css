@@ -27,7 +27,14 @@ main{
     justify-content: center;
     background-image: linear-gradient(to right,white, rgb(209, 209, 149)); 
     height: 49rem;
-}    
+}  
+
+.containtercontactanos{
+    padding-top: 12rem;
+    padding-bottom: 10rem;
+    padding-left: 35rem;
+    padding-right: 35rem
+}
 .redes{
     display: flex;
     justify-content: flex-end;
