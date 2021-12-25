@@ -1,1 +1,17 @@
 $color-principal: #fafafa;
+$centrado: center;
+$derecha: right;
+$alturafuente: 40px; 
+$verde: rgb(141, 224, 141);
+$azul: blue;
+$violeta: rgb(230, 67, 230);
+$estilos: (
+    centrado: center,
+    negro: black,
+);
+
+@mixin tamanio ($ancho, $largo) {
+ width: $ancho;
+ height: $largo;
+    
+}

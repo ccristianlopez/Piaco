@@ -17,14 +17,11 @@ nav{
         padding: 8px 20px
     }
     &.menu{
-        display: flex;
-        justify-content: center;
+        @extend .redes;
+        justify-content: $centrado;
         padding: 2px;
         margin: 4px;
         font-size: 20px;
-        font-family: 'Shippori Antique B1', sans-serif;
-        list-style: none;
-        text-decoration: none;
         
     }
     &.menu a{
@@ -35,3 +32,5 @@ nav{
     
     }
 }
+
+/*Aplicado @extend em .menu*/

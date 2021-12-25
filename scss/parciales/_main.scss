@@ -9,40 +9,34 @@ main{
         padding-right: 0px;
         padding-top: 50px;
         padding-bottom: 50px;
-        width: 422px;
-        height: 884px;
+        @include tamanio (422px, 884px)
     }
 
     &.doblefaz{
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: $centrado;
+        align-items: $centrado;
         
         
     }
     
     &.textoinicio{
-        padding: 20px;
-        text-align: center;
-        font-size: 40px;
+        padding: $alturafuente - 20px;
+        text-align: $centrado;
+        font-size: $alturafuente;
         font-family: 'Shippori Antique B1', sans-serif;
+        
     }
-    
-    &.textoinicio{
-        padding: 20px;
-        text-align: center;
-        font-size: 40px;
-        font-family: 'Shippori Antique B1', sans-serif;
-    }
+   
     &.texto{
-        padding: 20px;
-        text-align: center;
-        font-size: 35px;
+        padding: $alturafuente - 20px;
+        text-align: map-get($estilos, centrado);
+        font-size: $alturafuente - 5px;
         font-family: 'Shippori Antique B1', sans-serif; 
     }
     &.impresionesblancoynegro{
         font-family: 'Righteous', cursive;
-        font-size: 40px;
+        font-size: $alturafuente
     }
     hr{
         height: 100px;
@@ -51,7 +45,7 @@ main{
        
     }
     &.derecha{
-        text-align: right;
+        text-align: $derecha;
     }
     &.subi{
         display: block;
@@ -63,7 +57,10 @@ main{
         padding-right: 35rem;
     }
     .murata{
-        text-align: center;
-        font-size: 35px;
+        text-align: $centrado;
+        font-size: $alturafuente - 5px;
     }
 }
+
+/*Map aplicado en .texto*/
+/*@mixin aplicado en .border*/
