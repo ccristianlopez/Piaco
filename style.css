@@ -9,7 +9,8 @@ header a{
     font-size: 100px;
     list-style: none;
     text-decoration: none;
-    color:black
+    color:black;
+    height: 100%;
 }
 .tracking-in-contract {
 	-webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -18,53 +19,77 @@ header a{
 }
 
 nav{
-    background: rgb(250,250,250);
-background: linear-gradient(90deg, rgba(250,250,250,1) 0%, rgba(208,255,152,1) 41%, rgba(206,228,87,1) 67%);
+    background: rgb(252,12,12);
+    background: linear-gradient(45deg, rgba(252,12,12,1) 0%, rgba(242,0,0,1) 100%, rgba(255,255,255,1) 100%);
+    height: 5rem;
 }
-
+.container{
+    padding-top: 5rem;
+}
 main{
-    display: flex;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 36%, rgba(254,255,223,1) 99%);
+    height: 100%;
     justify-content: center;
-    background-image: linear-gradient(to right,white, rgb(209, 209, 149)); 
-    height: 49rem;
-}  
-
+    align-items: center;
+} 
+.border-start{
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.cuaderno{
+    height: 80%;
+    width: 70%;
+    
+}
 .containtercontactanos{
     padding-top: 12rem;
     padding-bottom: 10rem;
     padding-left: 35rem;
     padding-right: 35rem
 }
+.container-zonas{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+}
 .redes{
     display: flex;
-    justify-content: flex-end;
-    font-family: 'Shippori Antique B1', sans-serif;
-    color: blue;
-    font-size: 12px; 
     text-decoration: none;
     list-style: none;
+    gap: 2rem;
     
 }    
-.redes p{
+.asd{
     display: flex;
-    padding: 8px 20px
+    padding: 8px 20px;
+    height: 3rem;
+    width: 3rem;
+    
 }
 .menu{
     display: flex;
     justify-content: center;
-    padding: 2px;
+    padding-top:  25px;
     margin: 4px;
     font-size: 20px;
-    font-family: 'Shippori Antique B1', sans-serif;
+    font-family: 'Varela Round', sans-serif;
     list-style: none;
     text-decoration: none;
+
+   
+    
+    
     
 }
 .menu a{
-    color: black;
+    color: white;
     padding: 10px;
     list-style: none;
     text-decoration: none;
+    
 
 }
 .border img{
@@ -85,15 +110,27 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.canalesdecompra{
+    display: grid;
+    grid-template-columns: 15rem 15rem;
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+footer{
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 13px;
+    font-family: 'Shippori Antique B1', sans-serif; 
+    background: white;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5rem;
     
     
 }
-footer{
-    font-size: 13px;
-    font-family: 'Shippori Antique B1', sans-serif; 
-    background: rgb(250,250,250);
-    background: linear-gradient(90deg, rgba(250,250,250,1) 0%, rgba(208,255,152,1) 41%, rgba(206,228,87,1) 67%);
-    
+.leyenda{
+    text-align: center;
 }
 .textoinicio{
     padding: 20px;
@@ -120,23 +157,36 @@ hr{
 .derecha{
     text-align: right;
 }
-.subi{
-    display: block;
+
+.container-escuela{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    justify-content: center;
+    align-items: center;
 }
+.texto-contact{
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+.box-contact{
+    text-align: center;
+}
+
 .formulario{
-    padding-top: 12rem;
-    padding-bottom: 10rem;
-    padding-left: 35rem;
-    padding-right: 35rem;
+    padding-top: 8rem;
+    width: 100%
 }
+
 .murata{
     text-align: center;
     font-size: 35px;
 }
 /*CONDICIONALES MEDIAS QUERIES*/
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 550px) {
     nav{
-        background-color: darksalmon;
+        height: 12rem;
     }
 }
 @media screen and (min-width:771px) {
@@ -149,7 +199,24 @@ hr{
     }
 }
 
- @-webkit-keyframes tracking-in-contract {
+@media screen and (max-width: 550px) {
+    .menu{
+        display: block;
+        text-align: center;
+        
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .columns{
+        display: block;
+        text-align: center;
+    }
+}
+
+
+
+@-webkit-keyframes tracking-in-contract {
     0% {
       letter-spacing: 1em;
       opacity: 0;
@@ -174,5 +241,4 @@ hr{
       letter-spacing: normal;
       opacity: 1;
     }
-  }
-  
+} 

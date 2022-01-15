@@ -1,0 +1,111 @@
+main{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 36%, rgba(254,255,223,1) 99%);
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+    .container{
+        padding-top: 5rem;
+
+        .doblefaz{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .tracking-in-contract {
+        -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+                animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+                text-align: center;
+    }
+
+    
+
+    .texto{
+        padding: 20px;
+        text-align: map-get($estilos, centrado);
+        font-size: 35px;
+        font-family: 'Shippori Antique B1', sans-serif; 
+    }
+    
+    .impresionesblancoynegro{
+        font-family: 'Righteous', cursive;
+        font-size: $alturafuente;
+    }
+
+    hr{
+        height: 100px;
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(172,172,172,1) 31%, rgba(203,204,203,1) 56%, rgba(255,255,255,1) 82%);  
+       
+    }
+
+    .derecha{
+        text-align: right;
+    }
+
+    .container-escuela{
+        display: grid;
+        grid-template-columns: 15% 85%;
+        justify-content: center;
+        align-items: center;
+    }
+     
+    .cuaderno{
+        height: 80%;
+        width: 70%;
+        
+    }
+
+    .border-start{
+        font-size: 20px;
+        font-family: 'Varela Round', sans-serif;
+        justify-content: $centrado;
+        align-items: $centrado;
+    }
+
+    .container-zonas{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 2rem;
+    }
+
+    .formulario{
+        padding-top: 8rem;
+        width: 100%
+    }
+
+    .box-contact{
+        text-align: $centrado;
+    }
+
+    .texto-contact{
+        padding: 20px;
+        text-align: $centrado;
+        font-size: 18px;
+        font-family: 'Shippori Antique B1', sans-serif;
+    }
+
+    .formulario{
+        padding-top: 8rem;
+        width: 100%
+    }
+
+    .murata{
+        text-align: $centrado;
+        font-size: 35px;
+    }
+
+    @media screen and (min-width:771px) {
+        .container{
+            display: grid;
+            grid-template-columns: auto auto;
+            column-gap: 20px;
+            row-gap: 20px;
+    
+        }
+    }
+    
+} 

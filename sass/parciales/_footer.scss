@@ -1,0 +1,33 @@
+footer{
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 13px;
+    font-family: 'Shippori Antique B1', sans-serif;
+    background: #fafafa;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5rem;
+    
+    .redes{
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+        gap: 2rem;
+        
+        .asd{
+            display: flex;
+            padding: 8px 20px;
+            height: 3rem;
+            width: 3rem;
+            
+        }
+    }    
+
+   
+}
+@media screen and (max-width: 550px) {
+    .columns{
+        display: block;
+        text-align: center;
+    }
+}

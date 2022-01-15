@@ -1,0 +1,276 @@
+footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  font-size: 13px;
+  font-family: 'Shippori Antique B1', sans-serif;
+  background: #fafafa;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 5rem;
+          column-gap: 5rem;
+}
+
+footer .redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  gap: 2rem;
+}
+
+footer .redes .asd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 8px 20px;
+  height: 3rem;
+  width: 3rem;
+}
+
+@media screen and (max-width: 550px) {
+  .columns {
+    display: block;
+    text-align: center;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background: white;
+  background: -webkit-gradient(linear, left top, right top, color-stop(36%, white), color-stop(99%, #feffdf));
+  background: linear-gradient(90deg, white 36%, #feffdf 99%);
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .container {
+  padding-top: 5rem;
+}
+
+main .container .doblefaz {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .tracking-in-contract {
+  -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  text-align: center;
+}
+
+main .texto {
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Shippori Antique B1', sans-serif;
+}
+
+main .impresionesblancoynegro {
+  font-family: 'Righteous', cursive;
+  font-size: 40px;
+}
+
+main hr {
+  height: 100px;
+  background: black;
+  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(31%, #acacac), color-stop(56%, #cbcccb), color-stop(82%, white));
+  background: linear-gradient(90deg, black 0%, #acacac 31%, #cbcccb 56%, white 82%);
+}
+
+main .derecha {
+  text-align: right;
+}
+
+main .container-escuela {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 15% 85%;
+      grid-template-columns: 15% 85%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .cuaderno {
+  height: 80%;
+  width: 70%;
+}
+
+main .border-start {
+  font-size: 20px;
+  font-family: 'Varela Round', sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .container-zonas {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  gap: 2rem;
+}
+
+main .formulario {
+  padding-top: 8rem;
+  width: 100%;
+}
+
+main .box-contact {
+  text-align: center;
+}
+
+main .texto-contact {
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Shippori Antique B1', sans-serif;
+}
+
+main .formulario {
+  padding-top: 8rem;
+  width: 100%;
+}
+
+main .murata {
+  text-align: center;
+  font-size: 35px;
+}
+
+@media screen and (min-width: 771px) {
+  main .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    -webkit-column-gap: 20px;
+            column-gap: 20px;
+    row-gap: 20px;
+  }
+}
+
+.tracking-in-contract {
+  -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  text-align: center;
+}
+
+.tracking-in-contract a {
+  font-family: 'Righteous', cursive;
+  font-size: 100px;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  height: 100%;
+}
+
+@-webkit-keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+
+nav {
+  background: #fc0c0c;
+  background: linear-gradient(45deg, #fc0c0c 0%, #f20000 100%, white 100%);
+  height: 5rem;
+}
+
+nav .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 25px;
+  margin: 4px;
+  font-size: 20px;
+  font-family: 'Varela Round', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav .menu a {
+  color: #fafafa;
+  padding: 10px;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav .menu .border-start {
+  font-size: 20px;
+  font-family: 'Varela Round', sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 550px) {
+  nav .menu {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  nav {
+    height: 12rem;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */
