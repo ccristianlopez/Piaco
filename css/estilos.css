@@ -47,9 +47,6 @@ footer .redes .asd {
 }
 
 main {
-  background: white;
-  background: -webkit-gradient(linear, left top, right top, color-stop(36%, white), color-stop(99%, #feffdf));
-  background: linear-gradient(90deg, white 36%, #feffdf 99%);
   height: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -61,18 +58,6 @@ main {
 
 main .container {
   padding-top: 5rem;
-}
-
-main .container .doblefaz {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 main .tracking-in-contract {
@@ -93,35 +78,6 @@ main .impresionesblancoynegro {
   font-size: 40px;
 }
 
-main hr {
-  height: 100px;
-  background: black;
-  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(31%, #acacac), color-stop(56%, #cbcccb), color-stop(82%, white));
-  background: linear-gradient(90deg, black 0%, #acacac 31%, #cbcccb 56%, white 82%);
-}
-
-main .derecha {
-  text-align: right;
-}
-
-main .container-escuela {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 15% 85%;
-      grid-template-columns: 15% 85%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-main .cuaderno {
-  height: 80%;
-  width: 70%;
-}
-
 main .border-start {
   font-size: 20px;
   font-family: 'Varela Round', sans-serif;
@@ -131,14 +87,6 @@ main .border-start {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-main .container-zonas {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto auto auto;
-      grid-template-columns: auto auto auto;
-  gap: 2rem;
 }
 
 main .formulario {
@@ -162,26 +110,210 @@ main .formulario {
   width: 100%;
 }
 
-main .murata {
+main .estamos-vida {
+  font-family: 'Staatliches', cursive;
+  font-size: 40px;
   text-align: center;
+}
+
+main .estamos-piaco {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+main .imagen-inicio {
+  padding-bottom: 2rem;
+}
+
+main .container-delivery {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+main .renovados {
+  color: black;
+  background-color: yellow;
+  font-family: 'Staatliches', cursive;
+  font-size: 45px;
+  margin-left: 14rem;
+  margin-right: 14rem;
+}
+
+main li {
+  padding-top: 8rem;
+  list-style: none;
+  text-decoration: none;
+}
+
+main .volvemos {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+main img {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+main .precios-descripcion {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 75% 25%;
+      grid-template-columns: 75% 25%;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  padding-bottom: 8rem;
+}
+
+main .precios-box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+main .box-pr {
+  font-size: 30px;
+  padding-top: 5rem;
+  padding-left: 5rem;
+  border: 1px solid #e9e9e9;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+main .gris {
+  color: #8b8b8b;
+}
+
+main .negrita {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+main .verde {
+  color: #2ad12a;
+}
+
+main .azul {
+  color: #5858d8;
+}
+
+main .descripcion {
+  font-size: 20px;
+}
+
+main .derecha {
+  text-align: right;
+}
+
+main .anilladofree {
+  color: #2ad12a;
   font-size: 35px;
+  text-align: center;
+}
+
+main .meli {
+  border: 1px solid #aaaaaa;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: 4rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+main .medios-pagos {
+  border: 1px solid #aaaaaa;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: 2rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+main .descuento {
+  border: 1px solid #aaaaaa;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: 2rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 @media screen and (min-width: 771px) {
   main .container {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: auto auto;
-        grid-template-columns: auto auto;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
     -webkit-column-gap: 20px;
             column-gap: 20px;
     row-gap: 20px;
   }
 }
 
+@media screen and (max-width: 1440px) {
+  main .container-delivery {
+    display: block;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    -webkit-column-gap: 20px;
+            column-gap: 20px;
+    row-gap: 20px;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  main .precios-descripcion {
+    display: block;
+    -webkit-column-gap: 20px;
+            column-gap: 20px;
+    row-gap: 20px;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main .precios-box {
+    display: block;
+    -webkit-column-gap: 20px;
+            column-gap: 20px;
+    row-gap: 20px;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
+
 .tracking-in-contract {
-  -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-  animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
   text-align: center;
 }
 
@@ -223,8 +355,7 @@ main .murata {
 }
 
 nav {
-  background: #fc0c0c;
-  background: linear-gradient(45deg, #fc0c0c 0%, #f20000 100%, white 100%);
+  background: white;
   height: 5rem;
 }
 
@@ -237,15 +368,15 @@ nav .menu {
           justify-content: center;
   padding-top: 25px;
   margin: 4px;
-  font-size: 20px;
+  font-size: 5px;
   font-family: 'Varela Round', sans-serif;
   list-style: none;
   text-decoration: none;
 }
 
 nav .menu a {
-  color: #fafafa;
-  padding: 10px;
+  color: black;
+  padding: 20px;
   list-style: none;
   text-decoration: none;
 }
