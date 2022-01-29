@@ -47,7 +47,7 @@ nav{
         justify-content: center;
         padding-top:  25px;
         margin: 4px;
-        font-size: 5px;
+        font-size: 15px;
         font-family: 'Varela Round', sans-serif;
         list-style: none;
         text-decoration: none;
@@ -63,13 +63,7 @@ nav{
       }
     
         
-      .border-start{
-        font-size: 20px;
-        font-family: 'Varela Round', sans-serif;
-        justify-content: $centrado;
-        align-items: $centrado;
-       
-    }
+      
         
     }
     @media screen and (max-width: 550px) {

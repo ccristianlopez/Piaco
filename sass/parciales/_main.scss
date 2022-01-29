@@ -5,6 +5,10 @@ main{
 
     .container{
         padding-top: 5rem;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        
+        
 
         
     }
@@ -38,12 +42,27 @@ main{
         align-items: $centrado;
     }
 
-    
-
-    .formulario{
-        padding-top: 8rem;
-        width: 100%
+    .banner{
+        width: 100%;
+        position: relative;
+        display: flex;
+        align-items: $centrado;   
     }
+
+    .imagen-inicio{
+        padding-bottom: 2rem;
+        width: 100%;
+        position: relative;
+        display: flex;
+        align-items: $centrado; 
+    }
+        
+        
+    .formulario{
+        margin-left: 5rem;
+    }
+        
+    
 
     .box-contact{
         text-align: $centrado;
@@ -55,11 +74,31 @@ main{
         font-size: 18px;
         font-family: 'Shippori Antique B1', sans-serif;
     }
+    .banner{
+      width: 100%;
+      position: relative;
+      display: flex;
+      align-items: $centrado;  
 
-    .formulario{
-        padding-top: 8rem;
-        width: 100%
     }
+
+    
+    .txt{
+        font-family: 'Staatliches', cursive;
+        font-size: 2rem;
+        text-align: $centrado;
+        position: absolute;
+        
+    }
+    .txt-1{
+        color: rgb(206, 206, 174);
+        text-shadow: 0px 0px 8px  black;
+    }
+    .txt-2{
+        color: rgb(206, 206, 174);
+        text-shadow: 0px 0px 8px  black;
+    }
+    
 
     
 
@@ -74,34 +113,46 @@ main{
         text-align: $centrado;
     }
 
-    .imagen-inicio{
-        padding-bottom: 2rem;
-    }
+    
 
     .container-delivery{
         
-        display: grid;
+       
         grid-template-columns: 50% 50%;
         margin-left: 3rem;
         margin-right: 3rem;
         
     }
+    .grid-inicio{
+        display: grid;
+        grid-template-columns: 65% 35%;
+    
+    }
     
     .renovados{
         color: black;
         background-color: yellow;
-        font-family: 'Staatliches', cursive;
+        font-family: 'Open Sans', sans-serif;
         font-size: 45px;
-        
-        margin-left: 14rem;
-        margin-right: 14rem;
-        
+        margin-bottom: 0;
+    }
+    p.renovados{
+        text-align: $centrado;
     }
 
     li{
-        padding-top: 8rem;
+        font-size: 33px;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+        padding-left: 2rem;
         list-style: none;
         text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        text-shadow: 0px 0px 8px  rgb(182, 182, 182)
+    }
+    
+    ul{
+        padding-left: 0px;
     }
     
 
@@ -111,46 +162,55 @@ main{
         font-size: 40px;
         text-align: $centrado;
     }
-
-    
-    img{
-        border-top-left-radius: 20px;
-        
-        border-bottom-left-radius: 20px;
-        
-    }
     .precios-descripcion{
         display: grid;
-        grid-template-columns: 75% 25%;
-        margin-left: 6rem;
-        margin-right: 6rem;
-        padding-bottom: 8rem;
-    }    
+        grid-template-columns: 82% 17%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-bottom: 30px;
+    }
+    .btn-red{
+        color: rgb(49, 49, 49);
+        background-color: yellow;
+        margin-left: 35px;
+        margin-right: 35px;
+        box-shadow: 1px 5px rgb(212, 212, 212);
+        
+
+    }   
+
     .precios-box{
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: 50% 50%;
+        gap: 1rem;
     }
     .box-pr{
         font-size: 30px;
         padding-top: 5rem;
         padding-left: 5rem;
         border: 1px solid rgb(233, 233, 233);
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
         margin-top: 4rem;
         margin-bottom: 2rem;
         margin-left: 1rem;
-        margin-right: 1rem;
+        margin-right: 3rem;
         padding-top: 30px;
         padding-bottom: 30px;
         padding-left: 15px;
         padding-right: 15px;
+        transition: 0,5s;
         
         
-
     }
+    .box-pr:hover{
+        
+        transform: scale(1.05);
+        box-shadow: 1px 5px rgb(216, 216, 216);
+    }
+    
     .gris{
         color: rgb(139, 139, 139);
     }
@@ -185,6 +245,7 @@ main{
         padding-bottom: 30px;
         padding-left: 15px;
         padding-right: 15px;
+        box-shadow: 1px 5px rgb(216, 216, 216);
         
     }
     .medios-pagos{
@@ -198,6 +259,7 @@ main{
         padding-bottom: 30px;
         padding-left: 15px;
         padding-right: 15px;
+        box-shadow: 1px 5px rgb(216, 216, 216);
     }
     .descuento{
         border: 1px solid rgb(170, 170, 170);
@@ -210,8 +272,56 @@ main{
         padding-bottom: 30px;
         padding-left: 15px;
         padding-right: 15px;
+        box-shadow: 1px 5px rgb(216, 216, 216);
     }
+    .preg{
+        text-align: $centrado;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .txt-frec{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        text-shadow: 0px 0px 8px  rgb(141, 141, 141);
+    }
+    .jbl{
+        
+        margin-right: 3rem;
+    }
+    .container-final{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 2rem;
+        
+        
+    }
+    h3{
+        text-align: $centrado;
+        background-color: yellow;
+    }
+    .precio-final{
+        display: flex;
+        gap: 2rem;
+    }
+    .cll{
+        font-size: 35px;
+    }
+    .info-compra{
+        display: block;
+        border: 1px solid rgb(212, 212, 212);
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        box-shadow: 1px 5px rgb(216, 216, 216);
 
+    }
+    
+    
     
 
 
@@ -238,7 +348,7 @@ main{
          
     }
 
-    @media screen and (max-width:1440px) {
+    @media screen and (max-width:1234px) {
         .precios-descripcion{
             display: block;
             column-gap: 20px;
@@ -258,5 +368,38 @@ main{
         }       
          
     }
+    @media screen and (max-width:1020px) {
+        .grid-inicio{
+            display: block;
+            column-gap: 20px;
+            row-gap: 20px;
+            margin-left: 0rem;
+            margin-right: 0rem;
+        }       
+         
+    }
+    @media screen and (max-width:915px) {
+        .txt{
+            font-family: 'Staatliches', cursive;
+            font-size: 11px;
+            text-align: $centrado;
+            position: absolute; 
+        }       
+    }
+    @media screen and (min-width:1400px) {
+        li{
+            font-size: 50px;
+            padding-top: 7rem;
+        }       
+    }
+    @media screen and (max-width:768px) {
+        .container-final{
+            display: block;
+        }       
+    }
 
+
+
+    
+    
 } 
