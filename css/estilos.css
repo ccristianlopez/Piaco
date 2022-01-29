@@ -551,6 +551,10 @@ nav .menu a {
   text-decoration: none;
 }
 
+nav li {
+  padding-bottom: 13px;
+}
+
 @media screen and (max-width: 550px) {
   nav .menu {
     display: block;

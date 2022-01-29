@@ -59,6 +59,7 @@ nav{
           list-style: none;
           text-decoration: none;
           
+          
       
       }
     
@@ -66,10 +67,14 @@ nav{
       
         
     }
+    li{
+      padding-bottom: 13px;
+    }
     @media screen and (max-width: 550px) {
         .menu{
             display: block;
             text-align: $centrado;
+            
             
         }
     }
